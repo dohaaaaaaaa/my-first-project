@@ -539,6 +539,7 @@ margin-top: 3px;
             color: #f7d8b3;
         }
         .pricing-btn1{
+            position: relative; 
             width:200px ;
           height: 40px;
             font-size: 20px;
@@ -547,7 +548,8 @@ margin-top: 3px;
             border: 2px solid rgb(117, 73, 73) ;
             color: #c4a684;
             background-color:#f2d8ba ;
-            margin-top: 30px;   
+            margin-top: 30px; 
+            z-index: 2;      
         }
         .pricing-div1:after{
             content:"";
@@ -558,6 +560,7 @@ margin-top: 3px;
             position: absolute;
             transition: 1s;
             background-color: #595147;
+            z-index: 1;
         }
         .pricing-div1:hover::after{
             border-radius: 50px;
